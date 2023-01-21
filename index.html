@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/estilos/estilo.css">
+    <link rel="stylesheet" href="assets/estilos/bootstrap.css">
     <title>Consumindo API de Filmes</title>
 </head>
 <body>
     <main class="container">
-        <h1>Pesquise o seu Filme</h1>
-        <div class="pesquisa">
-            <form id="formulario">
-                <label for="nome">Nome do Filme</label>
-                <input type="text" id="nome" placeholder="Digite o nome do filme"/>
-                <button id="btnBuscar" type="submit">Buscar</button>
-            </form>
-          </div>
+        <div class="header clearfix"></div>
+            <h1>Buscar Filmes</h1>
+            <div class="jumbotron">
+                <div class="col-lg-12">
+                    <form class="input-group" id="formulario">                        
+                        <input type="text" class="form-control" id="pesquisar" placeholder="Digite o nome do filme"/>
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" id="btnBuscar" type="submit">Buscar</button>
+                        </span>                            
+                    </form>
+                </div>
+            </div>
     </main>
+
+    <div class="container">
+        <div class="row" id="filmes">
+
+        </div>
+    </div>
+
 <script src="assets/scripts/main.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
 </body>
 </html>
