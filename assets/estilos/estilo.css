@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap'); /*font-family: 'Kavoon', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btnBuscar {
+    font-family: 'Kavoon', cursive;
+    padding: 0.3em;
+    border-radius: 5px ;
+}
