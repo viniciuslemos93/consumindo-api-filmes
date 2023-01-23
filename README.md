@@ -66,13 +66,13 @@ A principal funcionalidade do projeto é:
 $ git clone https://github.com/viniciuslemos93/consumindo-api-filmes.git
 
 # Acesse a pasta do projeto e abra o arquivo index.html no navegador
-
 ```
 
 &#xa0;
 
 ## :link: Links
 * Repositório: https://github.com/viniciuslemos93/consumindo-api-filmes/
+* Deploy: https://viniciuslemos93.github.io/consumindo-api-filmes/
 
 &#xa0;
 
