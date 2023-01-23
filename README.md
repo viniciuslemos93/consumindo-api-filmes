@@ -18,7 +18,8 @@
  &#xa0;
  
 ## :dart: Sobre
-<p>O principal objetivo do projeto foi aprender a utilizar os principais métodos de requisição com a biblioteca Axios.</p>
+<p>O principal objetivo do projeto foi aprender a consumir API, utilizando a biblioteca Axios.</p>
+<p>Praticando também a criação de elementos de forma Dinâmica.</p>
 <p>Esse projeto <a href="http://www.omdbapi.com/">utiliza esta API</a>. Suas informações e instruções estão no seu README.</p>
 
 &#xa0;
