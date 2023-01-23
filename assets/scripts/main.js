@@ -54,18 +54,18 @@ function mostraFilme() {
       <div class="col-md-6">
         <div class="well clearfix">
           <ul class="list-group">
-            <li class="list-group-item"><strong>Gênero:</strong> ${filme.Genere}</strong></li>
+            <li class="list-group-item"><strong>Gênero:</strong> ${filme.Genre}</strong></li>
             <li class="list-group-item"><strong>Lançamento:</strong> ${filme.Released}</strong></li>
             <li class="list-group-item"><strong>Duração:</strong> ${filme.Runtime}</strong></li>
-            <li class="list-group-item"><strong>Idioma:</strong> ${filme.language}</strong></li>
-            <li class="list-group-item"><strong>Prêmios:</strong> ${filme.Awrds}</strong></li>
+            <li class="list-group-item"><strong>Idioma:</strong> ${filme.Language}</strong></li>
+            <li class="list-group-item"><strong>Prêmios:</strong> ${filme.Awards}</strong></li>
             <li class="list-group-item"><strong>Atores:</strong> ${filme.Actors}</strong></li>
           </ul>
           <h3>Descrição</h3>
           ${filme.Plot}
           <hr>
-          <a href ="http://imdb.com/title/${filme.filmeId}" target = "_blank" class="btn btn-success" pull-left>Ver no iMDB </a>
-          <a href ="index.html" class="btn btn-default" pull-right>Voltar a pesquisar </a>
+          <a href="http://imdb.com/title/${filme.imdbID}" target="_blank" class="btn btn-success pull-left">Ver no iMDB</a>
+          <a href="index.html" class="btn btn-default pull-right">Voltar a Pesquisar</a>
         </div>
       </div>
     `
