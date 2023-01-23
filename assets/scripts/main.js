@@ -46,8 +46,30 @@ function mostraFilme() {
     axios.get(`${url}${apiKey}&i=${filmeId}`)    
   .then(function (response) {
     var filme = response.data
-    console.log(filme);
-    
+    var mostraFilme = `
+      <div class="col-md-6">
+        <img src="${filme.Poster}" class="img-responsive">
+          <h3><strong>${filme.Title}</strong></h3>
+      </div>
+      <div class="col-md-6">
+        <div class="well clearfix">
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Gênero:</strong> ${filme.Genere}</strong></li>
+            <li class="list-group-item"><strong>Lançamento:</strong> ${filme.Released}</strong></li>
+            <li class="list-group-item"><strong>Duração:</strong> ${filme.Runtime}</strong></li>
+            <li class="list-group-item"><strong>Idioma:</strong> ${filme.language}</strong></li>
+            <li class="list-group-item"><strong>Prêmios:</strong> ${filme.Awrds}</strong></li>
+            <li class="list-group-item"><strong>Atores:</strong> ${filme.Actors}</strong></li>
+          </ul>
+          <h3>Descrição</h3>
+          ${filme.Plot}
+          <hr>
+          <a href ="http://imdb.com/title/${filme.filmeId}" target = "_blank" class="btn btn-success" pull-left>Ver no iMDB </a>
+          <a href ="index.html" class="btn btn-default" pull-right>Voltar a pesquisar </a>
+        </div>
+      </div>
+    `
+    document.getElementById('filmes').innerHTML = mostraFilme;
   })
     .catch(function (error) {
       console.log(error);
