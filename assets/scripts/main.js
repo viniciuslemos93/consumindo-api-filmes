@@ -7,7 +7,8 @@ function pesquisarFilmes(e) {
 }
 function buscarFilmes(filmePesquisa) {
     apiKey = '5c80a2a1'
-    url = 'http://www.omdbapi.com/?apikey='
+    //url = 'http://www.omdbapi.com/?apikey='
+    url = 'https://www.omdbapi.com/?apikey='
     axios.get(`${url}${apiKey}&s=${filmePesquisa}`)    
   .then(function (response) {
     console.log(response);
