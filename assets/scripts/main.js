@@ -43,7 +43,8 @@ function mostraFilme() {
   var filmeId = sessionStorage.getItem('filmeId');
 
   apiKey = '5c80a2a1'
-  url = 'http://www.omdbapi.com/?apikey='
+  url = 'https://www.omdbapi.com/?apikey='
+  //url = 'http://www.omdbapi.com/?apikey='
     axios.get(`${url}${apiKey}&i=${filmeId}`)    
   .then(function (response) {
     var filme = response.data
