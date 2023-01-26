@@ -43,6 +43,17 @@ A principal funcionalidade do projeto é:
 
 &#xa0;
 
+## :pencil2: Layout
+<div align="center">
+<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/tela-pesquisa-filme.PNG">
+</div>
+
+<div align="center">
+<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/tela-detalhes-filme.PNG">
+</div>
+
+&#xa0;
+
 ## :computer: Tecnologias
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
