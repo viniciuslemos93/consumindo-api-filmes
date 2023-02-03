@@ -11,7 +11,6 @@
 <p align="center">
 <a href="#hammer_and_wrench-serviços">Serviços</a> &#xa0; | &#xa0;
 <a href="#scroll-rodando-o-projeto">Rodando o projeto</a> &#xa0; | &#xa0;
-<a href="#link-links">Links</a> &#xa0; | &#xa0;
 <a href="#sparkles-autor">Autor</a>
 </p>
 
@@ -21,6 +20,17 @@
 <p>O principal objetivo do projeto foi aprender a consumir API, utilizando a biblioteca Axios.</p>
 <p>Praticando também a criação de elementos de forma Dinâmica.</p>
 <p>Esse projeto <a href="http://www.omdbapi.com/">utiliza esta API</a>. Suas informações e instruções estão no seu README.</p>
+
+### Deploy: https://viniciuslemos93.github.io/consumindo-api-filmes/
+
+<div align="center">
+<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/tela-pesquisa-filme.PNG">
+</div>
+
+<div align="center">
+<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/tela-detalhes-filme.PNG">
+</div>
+
 
 &#xa0;
 
@@ -41,16 +51,6 @@ A principal funcionalidade do projeto é:
 
 ✔️ Trazer o resultado da pesquisa conforme nome do filme que pesquisar;
 
-&#xa0;
-
-## :pencil2: Layout
-<div align="center">
-<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/tela-pesquisa-filme.PNG">
-</div>
-
-<div align="center">
-<img align="center" alt="Print do site da borracharia"width="500" src="./assets/imagens/tela-detalhes-filme.PNG">
-</div>
 
 &#xa0;
 
@@ -81,11 +81,6 @@ $ git clone https://github.com/viniciuslemos93/consumindo-api-filmes.git
 
 &#xa0;
 
-## :link: Links
-* Repositório: https://github.com/viniciuslemos93/consumindo-api-filmes/
-* Deploy: https://viniciuslemos93.github.io/consumindo-api-filmes/
-
-&#xa0;
 
 ## :sparkles: Autor
 
