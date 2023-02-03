@@ -61,6 +61,10 @@ A principal funcionalidade do projeto é:
 
 * [Axios](https://axios-http.com/ptbr/)
 
+* [CSS](https://www.w3schools.com/css/)
+
+* [Bootstrap](https://getbootstrap.com/)
+
 &#xa0;
 
 ## :hammer_and_wrench: Serviços
